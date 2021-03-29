@@ -1,0 +1,17 @@
+/target
+/test-output
+/bin
+*.class
+.project
+.classpath
+.settings
+nbactions.xml
+.idea/
+*.iml
+*/allure-results/*
+*/target/*
+/server/database/postgres-data/*
+/server/evidences/*
+/server/selenoid/config/logs/*
+/server/selenoid/config/video/*
+*~
