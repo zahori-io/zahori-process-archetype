@@ -70,6 +70,8 @@
         <include>README.md</include>
         <include>.gitignore</include>
         <include>mvnw</include>
+        <include>*.bat</include>
+        <include>*.sh</include>
       </includes>
     </fileSet>
   </fileSets>

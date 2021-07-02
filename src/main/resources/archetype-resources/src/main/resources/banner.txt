@@ -5,5 +5,5 @@
  |_  / /_${symbol_escape} | || |/ _ ${symbol_escape}| _ ${symbol_escape}_ _|
   / / / _ ${symbol_escape}| __ | (_) |   /| | 
  /___/_/ ${symbol_escape}_${symbol_escape}_||_|${symbol_escape}___/|_|_${symbol_escape}___|
- Process
+ @project.artifactId@ @project.version@
  
