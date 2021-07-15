@@ -14,7 +14,7 @@ Para crear un nuevo proceso cambia los valores con prefijo tu* con tus valores p
 ```sh
 mvn archetype:generate -DarchetypeGroupId=io.zahori \
                        -DarchetypeArtifactId=zahori-process-archetype \
-                       -DarchetypeVersion=1.0.0 \
+                       -DarchetypeVersion=1.0.3 \
                        -DgroupId=tugroupid \
                        -DartifactId=tuartifactid \
                        -Dversion=tuversion-SNAPSHOT
@@ -25,7 +25,7 @@ Un ejemplo sería el siguiente:
 ```sh
 mvn archetype:generate -DarchetypeGroupId=io.zahori \
 -DarchetypeArtifactId=zahori-process-archetype \
--DarchetypeVersion=1.0.0 \
+-DarchetypeVersion=1.0.3 \
 -DgroupId=es.panel.cellst.zahori \
 -DartifactId=process-example \
 -Dversion=1.0.0-SNAPSHOT
