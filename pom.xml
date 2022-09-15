@@ -4,7 +4,7 @@
 
   <groupId>io.zahori</groupId>
   <artifactId>zahori-process-archetype</artifactId>
-  <version>1.0.9</version>
+  <version>1.0.10-SNAPSHOT</version>
 
   <name>zahori-process-archetype</name>
 
@@ -45,7 +45,7 @@
   <scm>
     <connection>scm:git:git://github.com/zahori-io/zahori-process-archetype.git</connection>
     <developerConnection>scm:git:git@github.com:zahori-io/zahori-process-archetype.git</developerConnection>
-    <tag>v1.0.9</tag>
+    <tag>v0.1.0</tag>
     <url>https://github.com/zahori-io/zahori-process-archetype.git</url>
   </scm>
 
