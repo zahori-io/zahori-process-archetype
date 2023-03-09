@@ -17,30 +17,10 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>server</directory>
-      <includes>
-        <include>**/*.txt</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
       <directory>.mvn/wrapper</directory>
       <includes>
         <include>**/*.java</include>
         <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>server</directory>
-      <includes>
-        <include>**/*.bat</include>
-        <include>**/*.sh</include>
-        <include>**/*.yaml</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>server/database</directory>
-      <includes>
-        <include>**/*.sql</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
@@ -50,25 +30,13 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>server/selenoid</directory>
-      <includes>
-        <include>**/*.json</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>server/evidences</directory>
-      <includes>
-        <include>**/*.log</include>
-        <include>**/*.png</include>
-        <include>**/*.docx</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>mvnw.cmd</include>
         <include>README.md</include>
         <include>.gitignore</include>
+        <include>.dockerignore</include>
+        <include>Dockerfile</include>
         <include>mvnw</include>
         <include>*.bat</include>
         <include>*.sh</include>

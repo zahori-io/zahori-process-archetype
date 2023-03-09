@@ -1,6 +1,7 @@
 /target
 /test-output
 /bin
+/logs
 *.class
 .project
 .classpath
@@ -9,5 +10,4 @@ nbactions.xml
 .idea/
 *.iml
 */allure-results/*
-*/target/*
 *~
