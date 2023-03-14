@@ -1,2 +1,3 @@
 #!/bin/bash
-DOCKER_BUILDKIT=1 docker build -t zahoriaut/zahori-process:0.1.10 .
+
+DOCKER_BUILDKIT=1 docker build -t <my-docker-registry>/<my-image-name>:<my-image-tag> .
