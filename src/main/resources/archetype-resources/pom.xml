@@ -8,28 +8,35 @@
     <name>${artifactId}</name>
     <description>Example of automated process using Zahori.io</description>
     <url>https://zahori.io</url>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.7</version>
-        <relativePath />
-    </parent>
 	
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
         <start-class>${package}.ZahoriProcessApp</start-class>
 
-        <selenium.version>4.6.0</selenium.version> 
+        <spring-boot.version>3.1.1</spring-boot.version>
+        <spring-cloud.version>2022.0.2</spring-cloud.version>
+        <selenium.version>4.9.1</selenium.version> 
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <type>pom</type>
+                <version>${spring-boot.version}</version>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+        
     <dependencies>
 
         <dependency>
             <groupId>io.zahori</groupId>
             <artifactId>zahori-framework</artifactId>
-            <version>0.2.5</version>
+            <version>0.2.11</version>
         </dependency>
 
         <dependency>
@@ -38,6 +45,11 @@
             <version>4.4.0</version>
         </dependency>
 		
+        <dependency>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+            <version>5.2.1</version>
+        </dependency>
     </dependencies>
 
     <build>
